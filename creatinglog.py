@@ -13,8 +13,6 @@ def div(x, y):
         print("value of :", c)
     except Exception as e:
         logger.info(e)
-    finally:
-        print("finally completed")
 
 #print("*"*20 + "another" + "*"*20)
 
