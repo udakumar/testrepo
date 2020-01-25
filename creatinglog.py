@@ -14,6 +14,4 @@ def div(x, y):
     except Exception as e:
         logger.info(e)
 
-#print("*"*20 + "another" + "*"*20)
-
 div(3, 0)
